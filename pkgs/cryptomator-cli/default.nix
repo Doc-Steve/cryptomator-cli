@@ -23,8 +23,8 @@ stdenv.mkDerivation {
     runHook preInstall
 
     mkdir -p $out/bin $out/lib
-    cp -R cryptomator-cli/bin $out/bin
-    cp -R cryptomator-cli/lib $out/lib
+    cp -R bin $out/bin
+    cp -R lib $out/lib
     chmod +x $out/bin/cryptomator-cli
 
     runHook postInstall
