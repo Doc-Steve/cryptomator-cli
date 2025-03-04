@@ -10,7 +10,7 @@ let
 
   src = fetchzip {
     url = "https://github.com/cryptomator/cli/releases/download/${version}/cryptomator-cli-${version}-linux-x64.zip";
-    sha256 = "sha256-0GQfUXbiXSBLYtbDmWPJSmV7oo8D456ZDgPXc7Kgdcg=";
+    sha256 = "sha256-AEAJKBMzBv3NhowGRahTpc5zbaDWafzrnyCCr0lZLg8=";
     stripRoot = true;
   };
 in
